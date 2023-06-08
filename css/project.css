@@ -1,0 +1,168 @@
+
+.pseparator{
+    height: 0;
+    width: 0;
+    border-left: 98.91vw solid transparent;
+    border-top: 5vw solid #fff000;
+    margin-bottom: -5vw;
+    background: url(/assets/pics/cross.png);
+    position: relative;
+    z-index: 1;
+}
+
+.title{
+    height: 100px;
+    padding-top: 150px;
+    background-color: rgba(34, 98, 189, 1) !important;;
+    background: url(/assets/pics/cross.png);
+}
+
+.title h1{
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    padding-left: 50px;
+}
+
+.projCont{
+    background-color: #fff000
+}
+
+.projCont .banderitas{
+    height: 100px;
+}
+
+.projCont h1{
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #2e7d32;
+    padding: 0px 50px 15px 50px;
+}
+
+.projCont p:first-of-type{
+    margin-left: 0px;
+    padding:0px 50px 30px 50px;
+    font-size: 20px;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.projCont h2{
+    margin-left: 30px;
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #2e7d32;
+    padding: 10px 50px 0px 50px;
+}
+
+.projCont p{
+    margin-left: 30px;
+    padding:0px 50px 30px 50px;
+    font-size: 20px;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.amenities{
+    background-color: #2e7d32;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    overflow: hidden;
+}
+
+.amenities .banderitas{
+    height: 100px;
+}
+
+.amenities h1{
+    text-align: center;
+    font-size: 50px;
+}
+
+.cardCont{
+    padding: 40px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+}
+
+.amcard {
+    width: 300px;
+    height: 400px;
+    background-color: white;
+    cursor: pointer;
+    color: black;
+    margin: 10px;
+    box-shadow:10px 10px 10px rgba(0, 0, 0, .2);
+}
+
+.amcard:hover {
+    box-shadow:10px 10px 10px rgba(0, 0, 0, .5);
+    transition: 0.3s ease-in-out;
+}
+
+.amcard h2, .amcard p{
+    padding: 10px;
+}
+
+.amcard img{
+    width: 300px;
+    height: 300px;
+}
+
+.popup {
+    display: none;
+    position: fixed;
+    z-index: 20;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.popup-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    width: 1300px;
+    height: 650px;
+    color: black;
+}
+
+.popup-info-content{
+    display: flex;
+}
+
+.popUppicture{
+    width: auto;
+    height: auto;
+}
+
+
+
+.popUppicture img{
+    width: 500px;
+    height: 500px;
+}
+
+.popUpinfo{
+    margin: 10px;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.close:hover,.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+

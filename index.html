@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fiesta Communities</title>
+    <link rel="icon" href="assets/pics/fiesta-communities-logo.png">
+    <link rel="stylesheet" href="style.css" />
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-brands/css/uicons-brands.css'>
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-solid-straight/css/uicons-solid-straight.css'>
+</head>
+<body>
+    <div id="loader"></div>
+    
+    <!-- header -->
+    <header id="top">
+        <nav id="navbar">
+            <a href="index.html"><img src="assets/pics/fiesta-communities-logo.png" alt="logo"></a>
+            <ul>
+                <li><a class="active" href="index.html">Home</a></li>
+                <li><a href="html/about.html">About</a></li>
+                <li><a href="html/project.html">Projects</a></li>
+                <li><a href="html/gallery.html">Gallery</a></li>
+                <li><a href="html/contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+        <div class="card">
+            <a href="#"><img src="/assets/pics/swak-sa-lahat-text.png" alt="swak-sa-lahat"></a>
+            <h5>Isang Swak na Swak na bahay sayo at sa iyong pamilya, sa abot kayang halaga!</h5>
+            <a class="btn" href="">FREE SITE TRIPPING<i class="fi fi-ss-play"></i></a>
+        </div>
+        <div class="vid-container">
+            <video src="assets/devvv.mp4" autoplay muted loop id="bgVideo"></video>
+        </div>
+    </header>
+
+    <!-- back to top button -->
+    <a href="#top" id="back-to-top-btn">↑</a>
+
+    <!-- Welcome section -->
+    <section id="welcome" class="welcomeWrap container">
+        <div class="banderitas"></div>
+        <img src="assets/pics/green_dahon.png" alt="green_dahon">
+        <h1>Welcome to Fiesta Communities!</h1>
+        <p>where community living meets comfort and convenience.</p>
+        <p>Discover your dream home and experience a vibrant and fulfilling lifestyle with us.</p>
+    </section>
+
+    <!-- diagonal seperator -->
+    <div class="fseparator"></div>
+
+    <!-- Featured section -->
+    <section id="featured" class="container">
+        <img src="assets/pics/yellow_dahon.png" alt="yellow_dahon">
+        <h1>Featured Properties</h1>
+        <div class="featuredCont">
+            <div class="featuredCard">
+                <img src="assets/pics/hows/h1.jpg" alt="hows">
+                <h2>House 1</h2>
+                <p>asds</p>
+            </div>
+            <div class="featuredCard">
+                <img src="assets/pics/hows/h3.jpg" alt="hows">
+                <h2>House 3</h2>
+                <p>asds</p>
+            </div>
+            <div class="featuredCard">
+                <img src="assets/pics/hows/h4.jpg" alt="hows">
+                <h2>House 4</h2>
+                <p>asds</p>
+            </div>
+        </div>
+        <a class="btn" href="html/gallery.html">SEE OTHER HOUSES<i class="fi fi-ss-play"></i></a>
+    </section>
+
+    <div class="tseparator"></div>
+
+    <section id="testimonials" class="container">
+        <img src="assets/pics/white_dahon.png" alt="">
+        <h1>Testimonials</h1>
+        <p>These heartfelt expressions come straight from the residents themselves, showcasing their personal experiences and genuine appreciation. As a collective effort, we aim to present a diverse range of perspectives, reflecting the unique bond that has formed within our community. We invite you to explore these testimonies, which encapsulate the essence of our subdivision and the warmth it brings to our lives.</p>
+        <div class="testimonial-carousel">
+            <div class="slides fade testimonial-text">
+                <h1>Wow!</h1>
+                <p>"Simula pa lang, napahanga na ako sa ganda ng aming subdivision. Ang linis at ang gaan ng pakiramdam pagpasok mo dito. Sobra akong natuwa na maging bahagi ng komunidad na ito."</p>
+                <p>- Maria Santos, Residente</p>
+            </div>
+            <div class="slides fade testimonial-text">
+                <h1>Astig!</h1>
+                <p>"Noong una kong nakita ang subdivision namin, sabi ko sa sarili ko, 'Astig dito ah!' Ang ganda ng mga bahay, ang friendly ng mga tao. Hindi ako nagkamali sa pagpili dito!"</p>
+                <p>- Mark Ramirez, Residente</p>
+            </div>
+            <div class="slides fade testimonial-text">
+                <h1>Wow, sobrang Impressive!</h1>
+                <p>"Pagpasok ko sa subdivision, natuwa agad ako sa ganda ng landscape at ang moderno ng mga pasilidad. Nagustuhan ko rin agad ang mainit na pagtanggap ng mga kapitbahay. Talagang na-impress ako!"</p>
+                <p>- Anna Reyes, Residente</p>
+
+            </div>
+            <div class="slides fade testimonial-text">
+                <h1>Speechless ako!</h1>
+                <p>"Sa unang pagkakataon kong pumasok sa subdivision namin, nawala ang boses ko sa sobrang ganda. Hindi ko akalaing may ganito palang lugar na malapit sa lungsod. Napakasaya at tahimik ng komunidad."</p>
+                <p>- Jose Gonzales, Residente</p>
+            </div>
+            <div class="slides fade testimonial-text">
+                <h1>Sheesh!</h1>
+                <p>"Napaka ganda dito mah duds, so good in the hood cuz!"</p>
+                <p>- Jesus Gabriel, Residente</p>
+            </div>
+            <div class="dotCont">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+                <span class="dot" onclick="currentSlide(4)"></span>
+                <span class="dot" onclick="currentSlide(5)"></span>
+            </div>
+        </div>
+    </section>
+
+    <div class="lseparator"></div>
+
+    <section id="location" class="container locCont">
+        <h1>Community For You</h1>
+        <p>The family's welfare is our top priority, as we educate them on the importance of a wise Investment. We provide decent, dignified and safe living Environment and address the problem of Shelter by ensuring certainty and security of homeowners. We continously innovate durable and reliable Technology to make our housing absolutely Affordable.</p>
+        <iframe id="gmap" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3851.7141445871453!2d120.5583809743474!3d15.119075285430997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3396f32ca6faa91d%3A0x4829684726d330d5!2sFiesta%20Communities%20Porac%20II-%20C!5e0!3m2!1sen!2sph!4v1686154208809!5m2!1sen!2sph" width="900" height="500" style="border: 1px;;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+
+    <section id="reminder" class="container">
+        <h1>Interested now?</h1>
+        <p>Why don't you schedule a FREE Site Tripping today?</p>
+        <p>We'll quickly help what you are looking for.</p>
+        <a class="btn" href="#">BOOK A FREE SITING TRIP</a>
+    </section>
+
+    <footer id="footer" class="container">
+        <p>Maki-Saya sa Fiesta! follow us on: <a href="https://www.facebook.com/fiestacommunitiesofficial"><i class="fi fi-brands-facebook"></i></a><a href="https://instagram.com/magkabahayna/"><i class="fi fi-brands-instagram"></i></a><a href="https://twitter.com/fciofficial/"><i class="fi fi-brands-twitter"></i></a><a href="https://www.youtube.com/fiestacomm"><i class="fi fi-brands-youtube"></i></a><a href="https://www.pinterest.com/fiestacomm/"><i class="fi fi-brands-pinterest"></i></a></p>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,84 @@
+
+.cseparator{
+  height: 0;
+  width: 0;
+  border-right: 98.9vw solid transparent;
+  border-top: 3vw solid #2e7d32;
+  margin-bottom: -3vw;
+}
+
+#contact{
+  background: url(/assets/pics/cross.png);
+}
+
+.title{
+  height: 100px;
+  padding-top: 150px;
+  background-color: #2e7d32;
+}
+
+.title h1 , #contact > h1{
+  font-size: 50px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.title h1{
+  color: #fff000;
+  padding-left: 50px;
+}
+
+#contact > h1, #contact p{
+  text-align: center;
+}
+
+#contact p{
+  padding-top: 50px;
+  font-size: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.formcontainer {
+  padding: 25px;
+  border-radius: 5px;
+  width: 500px;
+  display: block;
+  margin: auto;
+}
+
+/* Style inputs with type="text", textareas */
+input[type=text], textarea{
+    font-size: 20px;
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+  /* Style the submit button with a specific background color etc */
+button {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+  /* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+label{
+  font-size: 25px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.gmapCont{
+  padding: 50px;
+}
+

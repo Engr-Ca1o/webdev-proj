@@ -1,0 +1,130 @@
+
+.aseparator{
+    height: 0;
+    width: 0;
+    border-left: 98.91vw solid transparent;
+    border-top: 3vw solid #fff000;
+    margin-bottom: -3vw;
+    position: relative;
+    z-index: 1;
+}
+
+.a2separator{
+    height: 0;
+    width: 0;
+    border-right: 98.91vw solid transparent;
+    border-top: 5vw solid #2e7d32;
+    margin-bottom: -5vw;
+    position: relative;
+    z-index: 1;
+}
+
+.a3separator{
+    height: 0;
+    width: 0;
+    border-left: 98.91vw solid transparent;
+    border-top: 3vw solid rgba(34, 98, 189, 1);
+    margin-bottom: -3vw;
+    position: relative;
+    z-index: 1;
+}
+
+.head{
+    background: url(/assets/pics/dotted-bg.png) repeat-x top center;
+}
+
+.title{
+    height: 100px;
+    padding-top: 150px;
+    background-color: #fff000;
+    background-blend-mode: multiply;
+    position: relative;
+    z-index: 1;
+}
+
+.title h1{
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #2e7d32;
+    padding-left: 50px;
+}
+
+.aboutCont{
+    background-color: #2e7d32;
+    padding-top: 20px;
+    overflow: hidden;
+}
+
+.aboutCont h1{
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #fff000;
+    padding: 50px 50px 15px 50px;
+}
+.aboutCont .banderitas {
+    transform: rotate(2deg);
+}
+
+.aboutCont p em{
+    font-size: 35px;
+}
+
+.aboutCont p{
+    padding: 0px 50px;
+    font-size: 20px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.team{
+    background-color: rgba(34, 98, 189, 1);
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    padding-top: 40px;
+    overflow: hidden;
+}
+
+.team .banderitas{
+    transform: rotate(-3deg);
+}
+
+.team h1{
+    font-size: 50px;
+}
+
+.acronym{
+    font-size: 40px;
+    font-weight: bold;
+    color: #fff000;
+}
+
+.teamCont, .ceo{
+    height: 500px;
+    display: flex;
+    justify-content: center;
+}
+
+.acard {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: white;
+    margin: 10px;
+    width: 300px;
+    height: 400px;
+    color: black;
+}
+
+.acard img{
+    width: 300px;
+    height: 300px;
+}
+
+.ceo{
+    padding: 100px;
+    background-image: url(/assets/pics/cross.png);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}

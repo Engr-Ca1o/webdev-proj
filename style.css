@@ -1,0 +1,420 @@
+
+#loader{
+    position: fixed;
+	width: 100%;
+	height: 100vh;
+	background: #FBFCF4 url('/assets/pics/loading.gif') no-repeat center;
+	z-index: 999;
+}
+
+
+*{  
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* NAV STYLE */
+
+nav {
+    background-color: #b3cf99;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    justify-content: space-around;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 15;
+}
+
+nav a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 5px 16px;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.25rem;
+}
+
+nav li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+nav ul li a:hover {
+    background-color:burlywood;
+    color: black;
+    border-radius: 5px;
+}
+
+nav a:visited {
+    color: black;
+}
+
+nav a.active{
+    background-color:burlywood;
+    color: black;
+    border: 1px solid brown;
+    border-radius: 5px
+}
+
+nav img {
+    height: 75px;
+}
+
+/* VIDEO BG STYLES */
+.vid-container {
+    position: relative;
+    width: 100%;
+    padding-bottom: 50%; /* Adjust the value to trim the height */
+    overflow: hidden;
+}
+
+.vid-container video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 0;
+}
+
+.card {
+    font-family:Arial, Helvetica, sans-serif ;
+    margin: 0px 0px 10px 30px;
+    background-color: rgba(34, 98, 189, 0.7);
+    padding: 50px 10px 10px 10px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 300px;
+    height: 250px;
+    color: white;
+    z-index: 1;
+}
+
+.card a:visited{
+    color: white;
+}
+
+.card h5{
+    padding: 5px;
+}
+
+
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid white;
+}
+
+.btn i{
+    padding-left: 10px;
+}
+
+
+.container img{
+    display: block;
+    margin: auto;
+}
+
+.container h1{
+    font-size: 50px;
+}
+
+.container p{
+    font-size: 20px;
+}
+
+.container h1, .container p{
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* welcome section style */
+#welcome {
+    background: url(assets/pics/dotted-bg.png) repeat-x top center;
+    height: 625px;
+}
+
+#welcome h1, #welcome p{
+    padding: 10px;
+    color:#1b5e20;
+}
+
+.welcomeWrap{
+    background-color: #fff000 !important;
+    background-blend-mode: multiply;
+}
+
+.banderitas{
+    width: 100%;
+    height: 200px;
+    background-image: url(assets/pics/banderitas.png);
+    background-repeat: repeat-x;
+    background-size: 25%;
+}
+
+#back-to-top-btn {
+    display: none; /* Hide the button by default */
+    position: fixed; /* Position it at a fixed location */
+    bottom: 20px; /* Adjust the distance from the bottom */
+    right: 20px; /* Adjust the distance from the right */
+    z-index:11; /* Ensure it appears above other elements */
+    background-color: #333; /* Button background color */
+    color: #fff; /* Button text color */
+    padding: 10px 15px; /* Button padding */
+    border-radius: 5px; /* Button border radius */
+}
+
+
+/* featured */
+.fseparator{
+    height: 0;
+    width: 0;
+    border-right: 98.9vw solid transparent;
+    border-bottom: 3vw solid #2e7d32;
+    margin-top: -3vw;
+}
+
+#featured{
+    height: 800px;
+    background-color: #2e7d32;
+    padding-top: 50px;
+}
+
+#featured h1{
+    color: #fff000;
+}
+
+#featured a{
+    display: flex;
+    justify-content: center;
+}
+
+#featured a:hover{
+    color: #2e7d32;
+    background-color: #fff000;
+    border: 1px solid yellowgreen;
+    transition: 1 ease;
+}
+
+#featured > .btn{
+    width: 300px;
+    color: white;
+    margin: auto;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.featuredCont{
+    margin: 10px 10px 40px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.featuredCard{
+    margin: 10px;
+    background-color: white;
+    width: 300px;
+    height: 400px;
+    box-shadow:10px 10px 10px rgba(0, 0, 0, .2);
+}
+
+.featuredCard:hover{
+
+    transition: transform 1s ease;
+    box-shadow:0px 0px 15px rgba(0, 0, 0, .8);
+}
+
+.featuredCard img{
+    width: 100%;
+    height: 300px;
+}
+
+.featuredCard h2, .featuredCard p{
+    text-align: left;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 10px;
+}
+
+.featuredCard p{
+    font-size: 15px;
+}
+
+/* testimonial */
+.tseparator{
+    height: 0;
+    width: 0;
+    border-left: 98.9vw solid transparent;
+    border-bottom: 7vw solid rgba(34, 98, 189, 1);
+    margin-top: -7vw;
+}
+
+#testimonials{
+    height: 600px;
+    background-color: rgba(34, 98, 189, 1);
+    padding: 50px;
+    position: relative;
+    z-index: 1;
+}
+
+#testimonials > h1, #testimonials > p{
+    color: white;
+    padding: 0px 100px;
+}
+
+.testimonial-carousel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    height: 300px;
+    margin-top: 25px;
+    padding: 25px;
+    background-color: white;
+    position: relative;
+    box-shadow:4px 4px 10px rgba(0, 0, 0, 1);
+}
+
+.slides {
+    display: none;
+}
+
+.dotCont{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 10px; 
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+    background-color: #717171;
+}
+
+  /* Fading animation */
+@keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+
+/* location styles */
+.lseparator{
+    position: relative;
+    z-index: 1;
+    height: 0;
+    width: 0;
+    border-right: 98.9vw solid transparent;
+    border-top: 13vw solid rgba(34, 98, 189, 1);
+    margin-bottom: -13vw;
+}
+
+#location{
+    position: relative;
+    z-index: 0;
+    height: 1000px;
+    background-image: url(assets/pics/cross.png);
+    background-repeat: repeat;
+}
+
+.locCont{
+    background-color: #eeeeee !important;
+    background-blend-mode: multiply;
+}
+
+#location h1{
+    padding-top: 200px;
+}
+
+#location p{
+    padding:30px 100px;
+}
+
+#gmap{
+    display: block;
+    margin: auto;
+}
+
+
+/* reminder style */
+
+#reminder{
+    height: 300px;
+    background-color: #e65100 !important;;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+#reminder h1, #reminder p{
+    padding: 10px;
+}
+
+#reminder >.btn {
+    margin: 100px;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 300px;
+    margin: auto;
+    color: white;
+}
+
+footer{
+    background-color: lightgray;
+}
+
+#footer{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #2e7d32;
+}
+
+#footer a{
+    color: black;
+    margin: 1o;
+    padding: 10px;
+}
+
+#footer a:visited{
+    color: black;
+}
+
+#footer p{
+    font-size: 25px;
+}
+
+
