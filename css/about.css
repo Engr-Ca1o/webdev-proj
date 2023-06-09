@@ -30,7 +30,7 @@
 }
 
 .head{
-    background: url(/assets/pics/dotted-bg.png) repeat-x top center;
+    background: url(../assets/pics/dotted-bg.png) repeat-x top center;
 }
 
 .title{
@@ -119,12 +119,21 @@
     height: 300px;
 }
 
+.acard h1{
+    font-size: 35px;
+}
+
 .ceo{
     padding: 100px;
-    background-image: url(/assets/pics/cross.png);
+    background-image: url(../assets/pics/cross.png);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
+}
 
+.ceo > h1{
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }

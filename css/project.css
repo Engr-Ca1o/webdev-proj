@@ -1,20 +1,9 @@
 
-.pseparator{
-    height: 0;
-    width: 0;
-    border-left: 98.91vw solid transparent;
-    border-top: 5vw solid #fff000;
-    margin-bottom: -5vw;
-    background: url(/assets/pics/cross.png);
-    position: relative;
-    z-index: 1;
-}
-
 .title{
     height: 100px;
     padding-top: 150px;
     background-color: rgba(34, 98, 189, 1) !important;;
-    background: url(/assets/pics/cross.png);
+    background: url(../assets/pics/cross.png);
 }
 
 .title h1{
@@ -28,9 +17,6 @@
     background-color: #fff000
 }
 
-.projCont .banderitas{
-    height: 100px;
-}
 
 .projCont h1{
     font-size: 50px;
@@ -69,10 +55,6 @@
     overflow: hidden;
 }
 
-.amenities .banderitas{
-    height: 100px;
-}
-
 .amenities h1{
     text-align: center;
     font-size: 50px;
@@ -86,12 +68,13 @@
 }
 
 .amcard {
+    
     width: 300px;
     height: 400px;
     background-color: white;
     cursor: pointer;
     color: black;
-    margin: 10px;
+    margin: 20px;
     box-shadow:10px 10px 10px rgba(0, 0, 0, .2);
 }
 
@@ -100,8 +83,9 @@
     transition: 0.3s ease-in-out;
 }
 
-.amcard h2, .amcard p{
+.amcard h2{
     padding: 10px;
+    text-align:center;
 }
 
 .amcard img{
@@ -126,7 +110,7 @@
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: #fff;
-    padding: 20px;
+    padding: 10px;
     width: 1300px;
     height: 650px;
     color: black;
@@ -136,20 +120,23 @@
     display: flex;
 }
 
-.popUppicture{
-    width: auto;
-    height: auto;
-}
-
-
-
-.popUppicture img{
+.popup-info-content img{
+    padding-top: 75px;
     width: 500px;
     height: 500px;
 }
 
 .popUpinfo{
-    margin: 10px;
+    width: 50vw;
+    margin-left: 10px;
+}
+
+.popUpinfo h1{
+    font-size: 50px;
+}
+
+.popUpinfo p{
+    padding: 10px;
 }
 
 .close {

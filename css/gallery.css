@@ -1,0 +1,130 @@
+
+.title{
+    height: 100px;
+    padding-top: 150px;
+    background-color: #2e7d32 !important;;
+    background: url(../assets/pics/cross.png);
+}
+
+.title h1{
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #fff000;
+    padding-left: 50px;
+}
+
+
+.galleryCont{
+    background-color: #fff000;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #2e7d32;
+    overflow: hidden;
+}
+
+.galleryCont h1{
+    text-align: center;
+    font-size: 50px;
+}
+
+.cardCont{
+    padding: 40px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+}
+
+.gcard {
+    
+    width: 300px;
+    height: 400px;
+    background-color: white;
+    cursor: pointer;
+    color: black;
+    margin: 20px;
+    box-shadow:10px 10px 10px rgba(0, 0, 0, .2);
+}
+
+.gcard:hover {
+    box-shadow:10px 10px 10px rgba(0, 0, 0, .5);
+    transition: 0.3s ease-in-out;
+}
+
+.gcard h2{
+    padding: 10px;
+    text-align:center;
+}
+
+.gcard img{
+    width: 300px;
+    height: 300px;
+}
+
+.popup {
+    display: none;
+    position: fixed;
+    z-index: 20;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    
+}
+
+.popup-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 10px;
+    width: 1300px;
+    height: 650px;
+    color: black;
+}
+
+.popup-info-content{
+    display: flex;
+}
+
+.popUppicture{
+    width: 550px;
+    height: 650px;
+    overflow: auto;
+}
+
+.popUppicture img{
+    padding: 5px;
+    width: 500px;
+    height: 500px;
+}
+
+.popUpinfo{
+    width: 50vw;
+    text-align: center;
+
+}
+
+.popUpinfo h1, .popUpinfo p{
+    text-align: left;
+    margin-left: 10px;
+}
+
+.popUpinfo p{
+    padding: 10px;
+    font-size: 15.5px;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.close:hover,.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}

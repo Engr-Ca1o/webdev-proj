@@ -5,6 +5,7 @@
 // LOADING
 function hideLoader() {
     document.getElementById('loader').style.display = 'none';
+    
 }
 
 setTimeout(hideLoader,2000);
